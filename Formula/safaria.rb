@@ -2,27 +2,27 @@
 class Safaria < Formula
   desc "Find the AI models in your code and when they retire"
   homepage "https://safaria.com/cli"
-  version "0.4.4"
+  version "0.4.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.4/safaria-darwin-arm64"
-      sha256 "4a27a2e09ce763a2580d450176d9893a210c727e6f95fe55637dc2910c7653f0"
+      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.5/safaria-darwin-arm64"
+      sha256 "959d1c277712b2af9a222aab899396960b9ab4893e74cbf1698fbd302ab5507a"
     end
     on_intel do
-      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.4/safaria-darwin-x64"
-      sha256 "1d4c84525d04d656d834ca442e63ab2321e9de9baba4cfc31769d24f6897ef52"
+      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.5/safaria-darwin-x64"
+      sha256 "952f0e5adff41a3c15810433ec5d89fcd866b99834705e8a1ce78c5a7ecc5a20"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.4/safaria-linux-arm64"
-      sha256 "a31277355ec9d9b88a268535b608df35d03777cdbb77cf21c8f54438034aa8bb"
+      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.5/safaria-linux-arm64"
+      sha256 "99acea57bc97fdec0d1295fe94a1098d7a86f3ca672a8f0e7d7f6f7ad23de085"
     end
     on_intel do
-      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.4/safaria-linux-x64"
-      sha256 "1d49d28025c5f58dd8a7760268bc0985a0726d685a6df9c3fff4cae9a4f7183a"
+      url "https://github.com/liontude/safaria-cli/releases/download/v0.4.5/safaria-linux-x64"
+      sha256 "b0bc179b099bfa1f66bdef6f1259c0cbf53fbd3b762f9f3740140c463aebda12"
     end
   end
 
